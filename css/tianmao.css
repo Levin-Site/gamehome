@@ -1,0 +1,97 @@
+       body{ 
+           background-image: url(../images/bg.jpg);
+           background-attachment: fixed; // 不随屏幕滚动而滚动
+           background-repeat: repeat; // 如果背景图不够屏幕大小则重复铺，改为no-repeat则表示不重复铺
+           background-size: contain; // 等比例铺满屏幕
+         }
+       * {margin: 0;padding: 0;}  /*外边距，内边距*/
+       .list{
+	       width:1200px;
+		   /*height:200px;*/
+		   /*background-color:#f9f;*/
+		   /* margin-top:100px;
+		   margin-left:auto;
+		   margin-right:auto;*/
+		   margin:12px auto 100px;	   
+		   }
+       .list li{
+	       display:inline-block;
+	       list-style:none;
+	       width:215px;
+		   height:200px;
+		   background-color:#fff;
+		   padding-top:20px;
+		   padding-left:20px;
+		   }
+	   .list a{
+	       text-decoration:none;
+		   color:#000;
+		   font-size:18px;
+	       }
+	   .list p{
+	       font-size:14px;
+		   color:#33ff66;
+	       }
+       .list img{
+	       width:150px;
+		   height:145px;
+		   margin-left:64px;
+		   }          
+	   #photo{
+	   	   width: 310px;
+	   	   height:110px;
+	   	   margin-left: 40px;
+	   	   margin-top: 15px;
+	   }
+	   .ph1{
+	   	   width: 310px;
+	   	   height:110px;
+	   	   position: relative;
+	   }
+	   .pic img{
+	   	   position: absolute;
+	   	   top: 0;left: 10;
+	   	   display: none;
+	   }  
+	   #left{
+	   	   width: 320px;
+	   	   height:330px;
+	   	   margin-left: 40px;
+	   	   margin-top: 5px;
+	   }
+	   .lf1 li{
+	   	   list-style: none;
+	   	   font-family:arial;
+	       color:#00008B;
+	   }
+	   .lf1 a{
+	   	   color: rgb(9,108,178);
+	   }
+	   .ft1 {
+           max-width: 1400px;
+           background-color: rgb(150,185,125);
+       }
+       .head {
+       	   padding-right: 40px;
+           display: block;
+           height: 35px;
+       }
+       .head {
+           max-width: 1400px;
+           margin: 0px auto;
+           font-size: 14px;
+       }
+       .ft1 {
+           padding-left: 1.5rem;
+           padding-right: 1.5rem;
+       }
+       .ft1 {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          width: 100%;
+          max-width: 1400px;
+       }

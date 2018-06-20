@@ -1,0 +1,44 @@
+#banner{
+	width: 900px;
+	height: 450px;
+	background-color: #ffcccc;
+	margin-top: -450px; 
+	margin-left: 400px;
+	margin-right: 10px;
+	position: relative;
+}
+.pic{
+	width: 900px;
+	height: 450px;
+	position: relative;
+}
+.pic img{
+	position: absolute;
+	top: 0; left: 0;
+	display: none;
+}
+.btn{           /*按钮部分*/
+	width: 150px;
+	height: 10px;
+	position: absolute;
+	bottom: 10px; left: 50%;
+	margin-left: -75px;
+}
+.btn ul li{    /*按钮文字部分*/
+	list-style-type: none;
+	float: left;
+	width: 18px;
+	height: 18px;
+	background-color: #333;
+	border-radius: 9px;
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Microsoft yahei';
+	text-align: center;   /*水平*/
+	line-height: 18px;    /*垂直*/
+	cursor: pointer;      /*鼠标移动变成手指*/
+	margin: 0 2px;
+}
+.btn ul li.on{
+	background-color: #CD5C5C;
+}

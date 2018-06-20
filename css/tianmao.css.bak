@@ -1,0 +1,36 @@
+       * {margin: 0;padding: 0;}
+       .body{
+	       background-color:#ddd;
+		   }
+       .list{
+	       width:1200px;
+		   /*height:200px;*/
+		   /*background-color:#f9f;*/
+		   /* margin-top:100px;
+		   margin-left:auto;
+		   margin-right:auto;*/
+		   margin:100px auto 300px;/*ÉÏ ×óÓÒ ÏÂ*/		   
+		   }
+       .list li{
+	       display:inline-block;/*½«ÔªËØ±äÎªÐÐÄÚ¿é¼¶ÔªËØ ºáÏòÅÅÁÐ*/
+	       list-style:none;
+	       width:215px;
+		   height:200px;
+		   background-color:#fff;
+		   padding-top:20px;
+		   padding-left:20px;
+		   }
+	   .list a{
+	       text-decoration:none;/*È¥µôa±êÇ©µÄÏÂ»®Ïß*/
+		   color:#000;
+		   font-size:18px;
+	       }
+	   .list p{
+	       font-size:14px;
+		   color:#33ff66;
+	       }
+       .list img{
+	       width:150px;
+		   height:145px;
+		   margin-left:64px;
+		   }            
